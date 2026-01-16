@@ -19,3 +19,4 @@ class Library:
         self.__users[user.id_user] = user
         logging.info(f"Пользователь добавлен: {user.name}")
         return f"Пользователь '{user.name}' добавлен"
+    
